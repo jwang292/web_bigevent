@@ -52,6 +52,8 @@ $(function() {
                 layer.msg('successful login')
                     //save the token into local storage
                 localStorage.setItem('token', res.token)
+                    // console.log(res.token);
+
                 location.href = 'index.html'
 
             }
